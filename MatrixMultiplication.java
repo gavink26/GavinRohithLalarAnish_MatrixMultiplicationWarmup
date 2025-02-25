@@ -5,8 +5,8 @@
 public class Matrix {
     public static Double[][] multiply(Double[][] a, Double[][] b) {
         int rowsA = a.length;
-        int colsA = a[0].length;
         int rowsB = b.length;
+        int colsA = a[0].length;
         int colsB = b[0].length;
 
         
